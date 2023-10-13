@@ -1,0 +1,79 @@
+
+.signup ,.product{
+    width:300px;
+    display:flex;
+    flex-direction:column;
+   margin:auto;
+    
+   padding:20px;
+   background-color: #fff;
+   
+   border-radius:10px;
+   box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+   
+   align-items: center;
+   position:absolute;
+   top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width:100%;
+  
+  }
+  
+  /* Style for the heading */
+  h1 {
+    text-align: center;
+    color:#333;
+    font-size: 24px;
+  }
+  
+  /* Style for the input fields */
+  .input-field {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  
+  /* Style for the submit button */
+  .signup-button{
+    width: 100%;
+    padding:10px;
+    background-color: #1180f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px ;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+  }
+  
+  /* Style for the submit button on hover */
+  .signup-button:hover {
+    background-color: blue;
+  }
+
+
+  /* addProduct few styling of sinin is used in add product like .signup ar .product dono ki css same h input field ki css same */
+
+  .addProductButton{
+     
+    width: 50%;
+    padding:10px;
+    background-color: #23d364;
+    color: #fff;
+    border: none;
+    border-radius: 5px ;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+  }
+  .addProductButton:hover{
+    
+    background-color: #09702c;
+  }
+  
